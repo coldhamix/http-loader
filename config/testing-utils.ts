@@ -23,7 +23,7 @@ beforeEach(() => {
                         pass: actualText === expectedText,
                         get message() {
                             return 'Expected ' + actualText + ' to equal ' + expectedText;
-                        }
+                        }k
                     };
                 }
             };
